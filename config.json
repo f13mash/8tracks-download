@@ -1,0 +1,13 @@
+{
+  "apiKey": "497d1fd34ce268d8ad44b125e48fc22d8dbd9593",
+  "apiVersion": 3,
+  "retries": 6,
+  "dir": "/home/f13/Music/8track playlists",
+  "api": {
+    "login": "https://8tracks.com/sessions.json",
+    "playtoken": "http://8tracks.com/sets/new.json",
+    "playmix": "http://8tracks.com/sets/<TOKEN>/play.json?mix_id=<MIXID>",
+    "skipmix": "http://8tracks.com/sets/<TOKEN>/skip.json?mix_id=<MIXID>",
+    "nextmix": "http://8tracks.com/sets/<TOKEN>/next.json?mix_id=<MIXID>"
+  }
+}
